@@ -8,9 +8,10 @@ AppDataSource.initialize().then(async () => {
 
     console.log("Inserting a new data into the database...")
 
-/* Inserta el mock data para hacer las pruebas
+/*
+// Inserta el mock data para hacer las pruebas
 
-    Insert brands and products
+    //Insert brands and products
     const brand1 = new Brands()
     brand1.name = "Chevolet"
     brand1.active = true

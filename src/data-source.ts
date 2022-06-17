@@ -5,11 +5,11 @@ import { Brands } from "./entity/Brands"
 
 export const AppDataSource = new DataSource({
     type: "postgres",
-    host: "localhost",
+    host: "raja.db.elephantsql.com",
     port: 5432,
-    username: "postgres",
-    password: "123456",
-    database: "postgres",
+    username: "rrrkccmq",
+    password: "DmCKFApbnflvUdgzPuFlL9Cy0u-uO6wa",
+    database: "rrrkccmq",
     synchronize: true,
     logging: false,
     entities: [Products, Brands],
